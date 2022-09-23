@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gmail (promotion)</title>
+
+    <!-- Bootstrap -->
+
+    <!-- CSS bootstrap -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <!-- JavaScript bootstrap -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+    <!-- FavIcon -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/FavIcon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/FavIcon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/FavIcon/favicon-16x16.png">
+    <link rel="manifest" href="assets/FavIcon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Css -->
+
+    <link rel="stylesheet" href="assets/styles.css">
+
+    <!-- Icon -->
+
+    <link href='https://css.gg/format-justify.css' rel='stylesheet'>
+</head>
+<body>
+
+
+<!-- NavBar -->
+
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+      <!-- Toogle icons -->
+
+    <a class="navbar-brand" href="#"><img onclick="openNav()" class="openbtn img-fluid" src="assets/Images/2.png" alt=""></a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+          <form class="container-fluid ms-4">
+            <div class="input-group">
+              <span class="input-group-text" id="basic-addon1">@</span>
+              <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+          </form>
+
+
+          <form class="navbar-d d-flex" role="search">
+              <ul class="navbar-nav ms-5 mb-2 mb-lg-0">
+                  <li class="nav-item dropdown">
+                    <a class="navbar-nav nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <img src="assets/Images/3.jpg" class="navbar-img img-fluid" alt="">
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item ms-3" href="#"><img src="assets/Images/3.jpg"
+                          class="navbar-img1 img-fluid mt-4 ms-5 text-center" width="32px" height="32px"></a></li>
+
+                      <li class="navbar-txt"><a class="dropdown-item" href="#"><h6 class=" text-center mt-2">Ravi Sachin</h6></a></li>
+                      <li class="navbar-txt1"><a class="dropdown-item" href="#"><h6 class=" text-center text-secondary">ravisachin36@gmail.com</h6></a></li>
+                      <li class="navbar-txt2"><a class="dropdown-item" href="#"><small class=" font-weight-bold">Manage your Google Account</small></a></li>
+
+                      <li><hr class="dropdown-divider"></li>
+                      <li class="navbar-txt3"><a class="dropdown-item" href="#"><h6 class="text-center"><svg xmlns="http://www.w3.org/2000/svg" class=" icon icon-tabler icon-tabler-user-plus" 
+                          width="22" height="22" viewBox="0 0 24 24" stroke-width="1.5" stroke="black" fill="none" stroke-linecap="round" 
+                          stroke-linejoin="round">
+                          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                          <circle cx="9" cy="7" r="4" />
+                          <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                          <path d="M16 11h6m-3 -3v6" />
+                        </svg>&nbsp;&nbsp;&nbsp;Add another account</h6></a></li>
+
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item text-center" href="#"><button class="btn1 btn btn-danger text-center">Sign out</button></a></li>
+                    </ul>
+                  </li>
+                </ul>
+            </form>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Toogle Icons -->
+
+  <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+
+      <ul type="none">
+          <li><a class="icon-inbox" href="index.html"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-inbox text-danger" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+              <path d="M4 13h3l3 3h4l3 -3h3"></path>
+           </svg> <span class="ms-3 text-danger">Inbox</span></a></li>
+
+          <li><a class="icon-star" href="Promotion.html"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-star " width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z"></path>
+           </svg> <span class="ms-3 text-dark">Starred</span></a></li>
+
+          <li><a class="icon-star" href="Social.html"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock-hour-4 text-warning" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <circle cx="12" cy="12" r="9"></circle>
+              <path d="M12 12l3 2"></path>
+              <path d="M12 7v5"></path>
+           </svg> <span class="ms-3 text-dark">Snoozed</span></a></li>
+
+          <li><a class="icon-star" href="index.html"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-inertia text-primary" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M12.5 8l4 4l-4 4h4.5l4 -4l-4 -4z"></path>
+              <path d="M3.5 8l4 4l-4 4h4.5l4 -4l-4 -4z"></path>
+           </svg> <span class="ms-3 text-dark">Sent</span></a></li>
+
+          <li><a class="icon-star" href="Social.html"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-notes text-info" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <rect x="5" y="3" width="14" height="18" rx="2"></rect>
+              <line x1="9" y1="7" x2="15" y2="7"></line>
+              <line x1="9" y1="11" x2="15" y2="11"></line>
+              <line x1="9" y1="15" x2="13" y2="15"></line>
+           </svg> <span class="ms-3 text-dark">Draft</span></a></li>
+
+           <hr>
+
+           <li><a class="icon-star" href=""><span class="text-secondary mt-2 mb-3">Meeting</span></a></li>
+
+          <li><a class="icon-star" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-zoom" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M17.011 9.385v5.128l3.989 3.487v-12z"></path>
+              <path d="M3.887 6h10.08c1.468 0 3.033 1.203 3.033 2.803v8.196a0.991 .991 0 0 1 -.975 1.001h-10.373c-1.667 0 -2.652 -1.5 -2.652 -3l.01 -8.002a0.882 .882 0 0 1 .208 -.71a0.841 .841 0 0 1 .67 -.287z"></path>
+           </svg> <span class="navbar-span ms-3 text-dark">New Meeting</span></a></li>
+
+          <li><a class="icon-star" data-bs-toggle="modal" data-bs-target="#exampleModal1"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-keyboard" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <rect x="2" y="6" width="20" height="12" rx="2"></rect>
+              <line x1="6" y1="10" x2="6" y2="10"></line>
+              <line x1="10" y1="10" x2="10" y2="10"></line>
+              <line x1="14" y1="10" x2="14" y2="10"></line>
+              <line x1="18" y1="10" x2="18" y2="10"></line>
+              <line x1="6" y1="14" x2="6" y2="14.01"></line>
+              <line x1="18" y1="14" x2="18" y2="14.01"></line>
+              <line x1="10" y1="14" x2="14" y2="14"></line>
+           </svg> <span class="navbar-span ms-3 text-dark">Join a Metting</span></a></li>
+
+
+          <hr>
+
+          <li><a class="icon-star" href=""><span class="text-secondary mt-2 mb-3">Hangouts</span></a></li>
+
+          <li><a class="icon-star" onclick="openForm()" ><img src="assets/Images/3.jpg"
+              class="navbar-img1 img-fluid" width="32px" height="32px"> <span class="ms-3 text-dark">Ravi</span></a></li>
+      </ul>
+    </div>     
+    <div id="main">
+    </div>
+
+
+
+
+
+
+    <!-- Header section-->
+
+    <div class="header-container container-xl container-lg contain-md container-sm container-xs">
+      <div class="header-container_row row">
+          <div class="header-container_col col-xl-4 col-lg-3 col-md-2 col-sm-1 col-xs-12">
+
+              <ul class="nav flex-column bg-white mb-0">
+                  <li class="nav-item">
+                    <a href="index.html" class=" nav-link text-dark font-italic position-relative" class="primary1">
+                      <img src="https://www.gstatic.com/images/icons/material/system/2x/inbox_gm_googlered600_20dp.png" alt="">
+                      &nbsp; <span class="position-absolute top-40 start-100 translate-middle badge rounded-pill bg-danger">
+                        10+
+                        <span class="visually-hidden">unread messages</span>
+                      </span>
+                      <span class="primary1">Primary</span> 
+                    </a>
+                  </li>
+                </ul>   
+          </div>
+
+          <div class="header-container_col1 col-xl-4 col-lg-3 col-md-2 col-sm-1 col-xs-12">
+
+              <ul class="nav flex-column bg-white mb-0">
+                  <li class="nav-item">
+                    <a href="Social.html" class=" nav-link text-dark font-italic position-relative" class="primary">
+                      <img src="https://www.gstatic.com/images/icons/material/system/2x/people_black_20dp.png" alt="">
+                      &nbsp; <span class="position-absolute top-40 start-100 translate-middle badge rounded-pill bg-primary">
+                        50+
+                        <span class="visually-hidden">unread messages</span>
+                      </span>
+                      <span class="text-secondary" class="social">Social</span> 
+                    </a>
+                  </li>
+                </ul>
+
+          </div>
+
+          <div class="header-container_col2 col-xl-4 col-lg-3 col-md-2 col-sm-1 col-xs-12">
+
+              <ul class="nav flex-column bg-white mb-0">
+                  <li class="nav-item">
+                    <a href="Promotion.html" class=" nav-link text-dark font-italic position-relative" class="primary">
+                      <img src="https://www.gstatic.com/images/icons/material/system/2x/local_offer_black_20dp.png" alt="">
+                      &nbsp; <span class="position-absolute top-40 start-100 translate-middle badge rounded-pill bg-success">
+                        99+
+                        <span class="visually-hidden">unread messages</span>
+                      </span>
+                       <span class="text-secondary" class="promotion">Promotions</span> 
+                    </a>
+                  </li>
+                </ul>
+
+          </div>
+      </div>
+    </div>
+
+
+    
+
+
+   
+      <!-- Message Section -->
+
+
+      <div class="msg-container container-xl container-lg contain-md container-sm container-xs mt-5">
+
+
+        <h1 class="msg-container_txt text-center text-success mt-5">!..Promotion Data..!</h1>
+
+
+        <table id="msg-promotion-table" class="msg-container_txt table table-light table-borderless table-hover table-xl table-lg table-md table-sm table-xs mt-5">
+        </table>
+
+      </div>
+
+
+
+
+
+
+
+
+  <!-- Meeting section -->
+
+    <!-- New metting -->
+
+
+    <div class="msg-container container-xl container-lg contain-md container-sm container-xs mt-5">      
+    
+      <!-- Modal -->
+
+
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Share your new meeting.</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h6 class="text-secondary text-center">Copy the link and send it to people that you want to meet with.</h6>
+        <h6 class="text-secondary text-center">Make sure that you save it so that you can use it later,too.</h6>
+
+        <input type="text" class="model-txt form-control" placeholder="meet.google.com/ctz-fvnn-mzv" disabled name=" disabled input">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-share" width="25" height="25" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <circle cx="6" cy="12" r="3" />
+              <circle cx="18" cy="6" r="3" />
+              <circle cx="18" cy="18" r="3" />
+              <line x1="8.7" y1="10.7" x2="15.3" y2="7.3" />
+              <line x1="8.7" y1="13.3" x2="15.3" y2="16.7" />
+            </svg>
+          Send Invitation</button>
+        <button type="button" class="btn btn-light">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-video" width="25" height="25" viewBox="0 0 24 24" stroke-width="1.5" stroke="#0275d8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <path d="M15 10l4.553 -2.276a1 1 0 0 1 1.447 .894v6.764a1 1 0 0 1 -1.447 .894l-4.553 -2.276v-4z" />
+              <rect x="3" y="6" width="12" height="12" rx="2" />
+            </svg>
+          Start now</button>
+      </div>
+    </div>
+  </div>
+</div>
+    
+
+<!-- Join a meeting -->
+
+
+<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Join your meeting.</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h6 class="text-secondary text-center">Copy the link and send it to people that you want to meet with.</h6>
+        <h6 class="text-secondary text-center">Make sure that you save it so that you can use it later,too.</h6>
+
+        <input type="text" class="form-control" placeholder="meet.google.com/ctz-fvnn-mzv" disabled name=" disabled input">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-share" width="25" height="25" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <circle cx="6" cy="12" r="3" />
+              <circle cx="18" cy="6" r="3" />
+              <circle cx="18" cy="18" r="3" />
+              <line x1="8.7" y1="10.7" x2="15.3" y2="7.3" />
+              <line x1="8.7" y1="13.3" x2="15.3" y2="16.7" />
+            </svg>
+          Send Invitation</button>
+        <button type="button" class="btn btn-light">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-video" width="25" height="25" viewBox="0 0 24 24" stroke-width="1.5" stroke="#0275d8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <path d="M15 10l4.553 -2.276a1 1 0 0 1 1.447 .894v6.764a1 1 0 0 1 -1.447 .894l-4.553 -2.276v-4z" />
+              <rect x="3" y="6" width="12" height="12" rx="2" />
+            </svg>
+          Join now</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+ <!-- Pop Up Chat  -->
+
+
+
+ <div class="Pop-container container-xl container-lg container-md containersm container-xs container-fluid mt-5">
+  <div class="chat-popup" id="myForm">
+      <form action="" class="form-container">
+          <span class="pop-container_span text-center text-dark"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-messenger" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M3 20l1.3 -3.9a9 8 0 1 1 3.4 2.9l-4.7 1"></path>
+            <path d="M8 13l3 -2l2 2l3 -2"></path>
+         </svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Active 3h ago</span>
+
+          <hr>
+
+          <label class="text-secondary" for="msg"><b>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-video" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M15 10l4.553 -2.276a1 1 0 0 1 1.447 .894v6.764a1 1 0 0 1 -1.447 .894l-4.553 -2.276v-4z"></path>
+            <rect x="3" y="6" width="12" height="12" rx="2"></rect>
+         </svg> &nbsp;&nbsp;
+
+         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+          <circle cx="9" cy="7" r="4"></circle>
+          <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+          <path d="M16 11h6m-3 -3v6"></path>
+       </svg> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-settings" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065z"></path>
+        <circle cx="12" cy="12" r="3"></circle>
+       </svg>
+       </b></label>
+
+          <hr>
+
+          <textarea placeholder="Send a Message.." name="msg" required></textarea>
+
+          <button type="submit" class="btn btn-success form-control mb-2">Send</button>
+          <button type="button" class="btn cancel btn btn-danger form-control"
+              onclick="closeForm()">Close</button>
+      </form>
+  </div>
+
+</div>
+
+
+
+
+      <!-- Js -->
+
+      <script src="assets/PScript.js"></script>
+</body>
+</html>
